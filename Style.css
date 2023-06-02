@@ -92,6 +92,29 @@ nav{
     justify-content: space-between;
     background-color:black;
 }
+.topimg{
+    padding-top: 10%;
+    max-width: 99%;
+    max-height: 99%;
+    padding-bottom: 10%;
+}
+.button{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: "Josefin Sans" ;
+    border-radius: 30px;
+    margin: auto;
+    width: 25%;
+    font-size: small;
+    color: white;
+    background: black;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
 
 @media screen and (min-width:992px){
     nav{
@@ -123,12 +146,12 @@ nav{
 	#pages a{
 		color:var(--text);
 		text-decoration: none;
-		font-family: 'Comfortaa';
+		font-family: 'Josefin Sans';
 		font-size: 20px;
 		padding: 15px;
 		}
     #pages a:hover{
 	text-decoration: underline;
     }
-
+   
 }
