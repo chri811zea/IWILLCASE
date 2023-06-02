@@ -103,9 +103,9 @@ nav{
     padding-bottom: 5%;
     font-family: "Josefin Sans" ;
     border-radius: 30px;
-    margin: auto;
+    margin-top: 10%;
     width: 25%;
-    font-size: small;
+    font-size: large;
     color: white;
     background: black;
     justify-content: center;
@@ -114,6 +114,53 @@ nav{
     margin-right: auto;
     text-align: center;
     
+}
+h4 {
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 25%;
+    text-align: center;
+    font-size: x-large;
+}
+
+h5 {
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: x-large;
+}
+h6 {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: medium;
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-bottom: 5%;
+    color: grey;
+}
+h3 {
+    font-size: larger;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+.leftfloat{ 
+    max-width: 20%;
+}
+.rightfloat{
+    max-width: 20%;
+
+
+}
+
+.bil {
+    max-width: 99%;
+    max-height: 99%;
 }
 
 @media screen and (min-width:992px){
